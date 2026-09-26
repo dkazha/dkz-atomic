@@ -13,9 +13,10 @@ modules:
         destination: /
 
   - type: dnf
-    skip-unavailable: true
     install:
-      - noctalia
+      skip-unavailable: true
+      packages:
+        - noctalia
 
   - from-file: common-packages.yml
   - from-file: common-flatpaks.yml
