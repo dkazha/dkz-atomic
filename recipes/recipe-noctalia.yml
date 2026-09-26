@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 
-name: dkz-atomic
+name: dkz-atomic-sway
 description: My Noctalia desktop.
 base-image: ghcr.io/ublue-os/sericea-main
 image-version: 44
