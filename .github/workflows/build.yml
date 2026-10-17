@@ -28,6 +28,7 @@ jobs:
         recipe:
           # !! Add your recipes here
           - recipe-kde.yml
+          - recipe-kde-nvidia.yml
           - recipe-noctalia.yml
     steps:
       # the build is fully handled by the reusable github action
