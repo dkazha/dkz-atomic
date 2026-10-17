@@ -16,7 +16,7 @@ modules:
         - eza
         - bat
         - tailscale
-        - alacritty
+        - kitty
         - libvirt
         - qemu-kvm
         - virt-install

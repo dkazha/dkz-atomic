@@ -3,8 +3,8 @@
 
 name: dkz-atomic-kde
 description: My KDE Plasma desktop.
-base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 44
+base-image: ghcr.io/blue-build/base-images/fedora-kinoite
+image-version: latest
 
 modules:
   - type: files

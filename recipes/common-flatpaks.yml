@@ -8,12 +8,16 @@ modules:
         scope: system
         install:
           - app.zen_browser.zen
-          - com.bitwarden.desktop
           - com.github.tchx84.Flatseal
           - it.mijorus.gearlever
-          - md.obsidian.Obsidian
           - io.github.kolunmi.Bazaar
           - org.videolan.VLC
           - org.virt_manager.virt-manager
           - com.valvesoftware.Steam
       - scope: user
+        install:
+          - com.bitwarden.desktop
+          - md.obsidian.Obsidian
+          - org.libreoffice.LibreOffice
+          - com.google.Chrome
+          - org.mozilla.firefox
